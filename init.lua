@@ -1,0 +1,10 @@
+
+require("core.options")
+require("core.keymaps")
+require("plugins.indconfg.colors")
+require("plugins.plugins")
+require("plugins.indconfg.autopairs")
+require("plugins.indconfg.lualine")
+require("plugins.indconfg.lsp")
+require("plugins.indconfg.neotree")
+require("core.functions.CreateClassCpp")
