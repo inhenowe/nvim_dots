@@ -46,3 +46,12 @@ require "paq"
 	--Header 42 (opcional para proyectos que no son de 42)
 	"Diogo-ss/42-header.nvim",
 }
+
+--lista de las configuraciones de cada plugin istalado
+require("plugins.indconfg.colors")
+require("plugins.indconfg.autopairs")
+require("plugins.indconfg.lualine")
+require("plugins.indconfg.lsp")
+require("plugins.indconfg.neotree")
+require("plugins.indconfg.render-markdown")
+require("plugins.indconfg.42Header")
