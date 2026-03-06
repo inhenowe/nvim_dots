@@ -11,6 +11,7 @@
 require("core.options")
 require("core.keymaps")
 require("core.functions")
---| Plugins y configuraciones de plugins |--
+
+--| Plugins y configuraciones de plugins |----------
 require("plugins.plugins")
 
