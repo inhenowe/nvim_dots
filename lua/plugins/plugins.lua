@@ -4,9 +4,9 @@ require "paq"
 
 	--Neotree plugins
 	"nvim-lua/plenary.nvim",
-    "MunifTanjim/nui.nvim",
-    "nvim-tree/nvim-web-devicons",
-    "nvim-neo-tree/neo-tree.nvim",
+	"MunifTanjim/nui.nvim",
+	"nvim-tree/nvim-web-devicons",
+	"nvim-neo-tree/neo-tree.nvim",
 
 	--Treesitter (resaltado de sintaxis)
 	{"nvim-treesitter/nvim-treesitter", build = ":TSUpdate"},
@@ -39,4 +39,10 @@ require "paq"
 	"hrsh7th/cmp-nvim-lsp",
 	"L3MON4D3/LuaSnip",
 	"saadparwaiz1/cmp_luasnip",
+
+	--Markdown visualizer
+	"MeanderingProgrammer/render-markdown.nvim",
+
+	--Header 42 (opcional para proyectos que no son de 42)
+	"Diogo-ss/42-header.nvim",
 }
