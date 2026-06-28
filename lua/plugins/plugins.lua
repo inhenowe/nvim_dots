@@ -1,4 +1,4 @@
-require "paq" 
+require "paq"
 {
 	"savq/paq-nvim";
 

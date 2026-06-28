@@ -17,6 +17,7 @@ opt.mouse = "a"
 opt.cursorline = true
 opt.wrap = false
 opt.splitright = true
+opt.clipboard="unnamedplus"
 
 --lista caracteres
 opt.list = true
