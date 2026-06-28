@@ -12,6 +12,8 @@ require("core.options")
 require("core.keymaps")
 require("core.functions")
 
---| Plugins y configuraciones de plugins |----------
+--|Plugins y configuraciones de plugins |----------
 require("plugins.plugins")
 
+vim.env.QML_IMPORT_PATH = "/usr/lib/qt6/qml"
+vim.env.QML2_IMPORT_PATH = "/usr/lib/qt6/qml"
