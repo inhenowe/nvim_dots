@@ -45,6 +45,9 @@ require "paq"
 
 	--Header 42 (opcional para proyectos que no son de 42)
 	"Diogo-ss/42-header.nvim",
+
+	--Neogen : comentarios de documentacion de funciones
+	"danymat/neogen",
 }
 
 --lista de las configuraciones de cada plugin istalado
@@ -55,3 +58,4 @@ require("plugins.indconfg.lsp")
 require("plugins.indconfg.neotree")
 require("plugins.indconfg.render-markdown")
 require("plugins.indconfg.42Header")
+require("plugins.indconfg.NeogenConf")
