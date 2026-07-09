@@ -20,7 +20,11 @@ require "paq"
 
 	--Telescope
 	"nvim-telescope/telescope.nvim",
-
+	
+	--Búsqueda y salto (Seeker)
+	"2kabhishek/seeker.nvim",
+	"folke/snacks.nvim",
+	
 	--Auto completado
 	"windwp/nvim-autopairs",
 
@@ -59,7 +63,15 @@ require "paq"
 
 	--terminal flotante
 	"TheLazyCat00/runner-nvim",
+	
+	-- Dependencia para la UI de Minty
+	"nvzone/volt",
 
+	-- Color picker
+	"nvzone/minty",
+
+	-- Biscuits (ayuda visual para cierre de bloques)
+	"code-biscuits/nvim-biscuits",
 }
 
 --lista de las configuraciones de cada plugin istalado
@@ -75,4 +87,6 @@ require("plugins.indconfg.gitsigns")
 require("plugins.indconfg.whichKey")
 require("plugins.indconfg.undoglow")
 require("plugins.indconfg.runner")
+require("plugins.indconfg.seeker")
+require("plugins.indconfg.biscuits")
 require("smear_cursor").setup()

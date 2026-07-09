@@ -26,3 +26,7 @@ map("n", "<leader>E", "<cmd>Neotree<cr>", {desc = "Abrir/Cerrar Explorador de ar
 
 -- Atajos lps diagnostic
 map("n", "<leader>d", "<cmd>lua vim.diagnostic.open_float()<cr>", {desc = "diagnostico"})
+
+-- Atajos minty
+vim.keymap.set('n', '<leader>mh', function() require('minty.huefy').open() end, { desc = "Minty: Paleta de Colores (Huefy)" })
+vim.keymap.set('n', '<leader>ms', function() require('minty.shades').open() end, { desc = "Minty: Sombras de color (Shades)" })
