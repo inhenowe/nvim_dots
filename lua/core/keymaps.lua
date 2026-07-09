@@ -7,9 +7,8 @@ vim.g.mapleader = " "
 
 -- Atajos convencionales
 map("n", "<leader>w", "<cmd>w<cr>", {desc = "guardar"})
-map("n", "<leader>x", "<cmd>wqa<cr>", {desc = "guardar y salir"})
-map("n", "<leader>s", "<cmd>source %<cr>", {desc = "guardar y salir"})
-map("n", "<leader>t", "<cmd>vert term<cr>", {desc = "guardar y salir"})
+map("n", "<leader>x", "<cmd>wqa<cr>", {desc = "guardar y salir all"})
+map("n", "<leader>s", "<cmd>source %<cr>", {desc = "source %"})
 map("n", "<leader>nf","<cmd>Neogen func<cr>", {desc = "generar comentarios"})
 
 

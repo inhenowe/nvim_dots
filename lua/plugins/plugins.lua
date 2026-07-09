@@ -17,10 +17,8 @@ require "paq"
 
 	--Barra de estado e iconos
 	"nvim-lualine/lualine.nvim",
-	"nvim-tree/nvim-web-devicons",
 
 	--Telescope
-	"nvim-lua/plenary.nvim",
 	"nvim-telescope/telescope.nvim",
 
 	--Auto completado
@@ -46,8 +44,22 @@ require "paq"
 	--Header 42 (opcional para proyectos que no son de 42)
 	"Diogo-ss/42-header.nvim",
 
-	--Neogen : comentarios de documentacion de funciones
+	--Neogen, comentarios de documentacion de funciones
 	"danymat/neogen",
+
+	--which-key ayuda de atajos de teclado
+	"folke/which-key.nvim",
+
+	--Plugins para el uso de git :)
+	"lewis6991/gitsigns.nvim",
+
+	--Smooth
+	"sphamba/smear-cursor.nvim",
+	"y3owk1n/undo-glow.nvim",
+
+	--terminal flotante
+	"TheLazyCat00/runner-nvim",
+
 }
 
 --lista de las configuraciones de cada plugin istalado
@@ -59,3 +71,8 @@ require("plugins.indconfg.neotree")
 require("plugins.indconfg.render-markdown")
 require("plugins.indconfg.42Header")
 require("plugins.indconfg.NeogenConf")
+require("plugins.indconfg.gitsigns")
+require("plugins.indconfg.whichKey")
+require("plugins.indconfg.undoglow")
+require("plugins.indconfg.runner")
+require("smear_cursor").setup()
